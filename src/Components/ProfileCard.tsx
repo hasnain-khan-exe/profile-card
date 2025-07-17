@@ -6,7 +6,7 @@ interface ProfileProps {
     title: string;
     description: string;
 }
-
+    
 const ProfileCard: React.FC<ProfileProps> = ({ name, image, title, description }) => {
     return (
         <div className="card m-3" style={{ width: '18rem' }}>
